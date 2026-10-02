@@ -314,7 +314,7 @@
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#papers">Papers</a></li>
             <li><a href="#resume">Resume/CV</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -326,12 +326,30 @@
         <div class="about-content">
             <img src="photo.png" alt="Profile Photo" class="profile-img">
             <div class="bio">
-                <p>PhD biomedical engineer specializing in computational modeling of cardiovascular physiology and interventions. Experienced in developing patient-specific multi-scale CFD and fluid–structure interaction models integrating clinical imaging and hemodynamic data to evaluate valve disease, LVAD support, and aortic interventions. Proven ability to translate in-silico simulations into clinically relevant insights through collaboration with engineers, cardiac surgeons, and radiologists. Strong track record of building validated modeling pipelines to study device performance, procedural outcomes, and cardiovascular mechanics.</p>
+                <p>I'm an engineer with a passion for building the bridge between complex science and real-world clinical impact. My work centers on medical device evaluation, computational modeling, and translating technical findings into insights that matter to clinicians, engineers, and patients alike. Over the past five years I've developed and validated patient-specific simulation frameworks, built clinical data pipelines from hospital imaging systems, and collaborated directly with physicians and engineers to define device requirements and performance benchmarks. I bring both deep technical depth and a strong instinct for communication. I'm drawn to roles at the intersection of engineering and clinical application: medical device R&D, data science in health, clinical engineering, scientific communication, or regulatory affairs. If you're working on technology that improves how medicine is practiced, I'd love to connect.</p>
                 <p></p>
             </div>
         </div>
     </section>
-    
+    <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="card-tags">
+        <span class="tag">IRB Submission Support</span>
+        <span class="tag">Clinical Research Documentation</span>
+        <span class="tag">Technical Documentation</span>
+        <span class="tag">Scientific Communication</span>
+        <span class="tag">Cross-Functional Collaboration</span>
+        <span class="tag">Requirements Translation</span>
+        <span class="tag">Project Management</span>
+        <span class="tag">Python</span>
+        <span class="tag">MATLAB</span>
+        <span class="tag">Statistical Analysis</span>
+        <span class="tag">Finite Element Modeling (CFD, FSI)</span>
+        <span class="tag">Clinical Data Integration</span>
+        <span class="tag">Parametter Optimization</span>
+    </div>
+</section>
     <!-- <section id="projects">
         <h2>GitHub Projects</h2>
         <div class="projects-grid"> -->
@@ -369,17 +387,36 @@
                 <p>Complete mathematical formulation, coupling strategy, and parameterization required to build a reproducible pipeline from dynamic CT, 2D transthoracic echocardiography, and right heart catheterization. This methodology is demonstrated in a patient under long-term support of LVAD and concomitant mitral and aortic regurgitation. The personalized, fully coupled 3D–0D models reproduced available clinical targets with a mean error of 8.6%, enabling controlled in silico interrogation of valve repair strategies.</p>
                 <div class="card-tags">
                     <span class="tag">LVAD</span>
-                    <span class="tag">3D–0D Modeling</span>
-                    <span class="tag">Hemodynamics</span>
+                    <span class="tag">CFD Modeling</span>
+                    <span class="tag">Computational Model Development</span>
+                    <span class="tag">Valve Disease</span>
                 </div>
                 <div class="card-links">
-                    <!-- <a href="https://doi.org/10.1007/s10237-026-02063-9" class="button">Read Paper</a> -->
                     <a href="https://doi.org/10.1007/s10237-026-02063-9" class="outline-button">DOI Link</a>
                 </div>
             </div>
         </div>
 
         <!-- Paper 2 -->
+        <div class="paper-card">
+            <div class="card-content">
+                <h3 class="card-title">Towards Modeling the Hemodynamic Impact of Mitral and Aortic Valve Repair in Patients with Left Ventricular Assist Devices</h3>
+                <p class="card-description">Computers in Biology and Medicine, (in review)</p>
+                <p>In this study, we apply a patient-specific, image-based computational modeling framework to evaluate the hemodynamic impact of simulated mitral and aortic valve repair in five LVAD-supported patients. Each patient was modeled under four conditions: (patient-specific LVAD-supported state), simulated mitral valve (MV) repair, simulated aortic valve (AV) repair, and simulated combined MV&AV repair. Because validation data for valve repair were unavailable, the simulated repair scenarios are exploratory in silico interventions based on clinically validated patient-specific models. The models integrate dynamic CT imaging, echocardiography, catheterization data, and device-specific LVAD parameters into a coupled 3D-0D simulation pipeline. Valve dynamics are governed by transvalvular pressure and flow, allowing physiological modeling of regurgitant lesions and surgical repair. The right ventricular (RV) was assessed using a combination of model-derived metrics, including right ventricular ejection fraction (RVEF), pulmonary artery pulsatility index (PAPi), and RV-PA coupling. In addition, we performed blood residence time (RT) analysis to evaluate blood stasis within the left heart and aorta. The simulations suggest that valve repair improved cardiac output, reduced pulmonary congestion, and enhanced right ventricular loading conditions. Notably, mitral valve repair restored aortic valve opening during the cardiac cycle, which improved sinus washout and reduced blood residence time within the aortic root-factors associated with lower thrombotic risk. Overall, these findings suggest a potential role for valve repair in LVAD-supported hearts, though larger, validated patient cohorts are needed to confirm these results.
+                    <div class="card-tags">
+                    <span class="tag">LVAD</span>
+                    <span class="tag">CFD Modeling</span>
+                    <span class="tag">Data Collection and Integration</span>
+                    <span class="tag">parameter optimization</span>
+                </div>
+                <div class="card-links">
+                    <!-- <a href="https://doi.org/10.1007/s10237-026-02063-9" class="button">Read Paper</a> -->
+                    <a href="https://doi.org/10.48550/arXiv.2609.26939" class="outline-button">DOI Link</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paper 3 -->
         <div class="paper-card">
             <div class="card-content">
                 <h3 class="card-title">Image-Based, Whole-System Hemodynamic Modeling of Mitral Regurgitation and Its Impact on the Right Ventricular Function</h3>
